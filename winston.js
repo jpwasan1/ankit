@@ -1,4 +1,4 @@
-var winston = require('winston');
+const winston = require('winston');
 logger = winston.createLogger({
     transports:
     [
