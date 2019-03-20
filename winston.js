@@ -6,3 +6,6 @@ logger = winston.createLogger({
        new  (winston.transports.File)({filename:wasanLogs})
     ]
 });
+app.get('/',()=>{
+    console.log('hi');
+})
