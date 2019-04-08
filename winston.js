@@ -12,3 +12,6 @@ app.get('/',()=>{
 app.get('/wasan',()=>{
     console.log('wasan here');
 })
+app.get('/ankit',()=>{
+    console.log('ankit');
+})
