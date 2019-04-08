@@ -8,4 +8,7 @@ logger = winston.createLogger({
 });
 app.get('/',()=>{
     console.log('hi');
+});
+app.get('/wasan',()=>{
+    console.log('wasan here');
 })
